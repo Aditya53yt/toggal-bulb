@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 23, 23);
+}
+
+.container{
+    background-color: rgb(31, 28, 28);
+}
+#head{
+    color:white;
+}
+
+.box{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.box button{
+    width: 200px;
+    height: 50px;
+    border-radius:30px;
+    background-color: bisque;
+    color: black;
+    border: none;
+}
